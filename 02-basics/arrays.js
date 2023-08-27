@@ -1,48 +1,48 @@
-// const myArr = [1,2,34,true,"mujeeb",55,5]
-// const myheros = ["shakitaman", "naahfe"]
+const myArr = [1,2,34,true,"mujeeb",55,5]
+const myheros = ["shakitaman", "naahfe"]
 
-// const myArr2 = new Array(1,2,3,4)
-// console.log(myArr2[0]);
+const myArr2 = new Array(1,2,3,4)
+console.log(myArr2[0]);
 
-//array methods
+// array methods
 
-// myArr2.push(7)
-// myArr2.pop()
-// 
+myArr2.push(7)
+myArr2.pop()
 
-// myArr2.unshift(9)
-// myArr2.shift()
 
-// console.log(myArr2.includes(3));
-// console.log(myArr2.indexOf(3));
+myArr2.unshift(9)
+myArr2.shift()
 
-// const newStr2 = myArr2.join()
-// console.log(myArr2)
-// console.log(newStr2);
+console.log(myArr2.includes(3));
+console.log(myArr2.indexOf(3));
 
-//slice, splice
+const newStr2 = myArr2.join()
+console.log(myArr2)
+console.log(newStr2);
 
-// console.log("A ",myArr2);
-// const myn1 = myArr2.slice(1,3)
-// console.log(myn1)
-// console.log("B ",myArr2)
+slice, splice
 
-// console.log("A ",myArr2);
+console.log("A ",myArr2);
+const myn1 = myArr2.slice(1,3)
+console.log(myn1)
+console.log("B ",myArr2)
+
+console.log("A ",myArr2);
 // const myn1 = myArr2.splice(1,3)
-// console.log(myn1)
-// console.log("B ",myArr2)
+console.log(myn1)
+console.log("B ",myArr2)
 
-// const arr = [1,2,3,4,5,6,7,8]
-// const heros = ["ironman","thor","spiderman"]
-// const dc = ["superman","batman"]
+const arr = [1,2,3,4,5,6,7,8]
+const heros = ["ironman","thor","spiderman"]
+const dc = ["superman","batman"]
 
-//heros.push(dc)
+heros.push(dc)
 // const allHeros = heros.concat(dc)
-// console.log(allHeros)
+console.log(allHeros)
 
-//spred
-// const allHeros = [...heros,...dc]
-// console.log(allHeros);
+spred
+const allHeros = [...heros,...dc]
+console.log(allHeros);
 
 console.log(Array.isArray("mujeeb"));
 console.log(Array.from("mujeeb"));
