@@ -1,0 +1,40 @@
+<!-- 
+    When we have nested functions, all the inner fuctions have the access to the local variables of parent function thsi is k/a closure
+
+    lexical scoping-
+       if we have a function, inside it we have a variable and another function. if we return the inner function in parent function, not only the inner function is returned but the whole scope of parent function which means all the variables we also be returned. this is k/a lexical scoping
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+// function init(){
+//     let name = "Mozilla";
+//     function displayName(){
+//         console.log(name);
+//     }
+//     displayName();
+// }
+// init()
+
+function outer(){
+    let username = "mujeeb"
+    function ineer(){
+        console.log("inner", username);
+    }
+    inner()
+}
+outer()
+console.log("TOO OUTER", username);
+
+    </script>
+</html>
